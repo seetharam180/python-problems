@@ -11,3 +11,8 @@ else:
             greatest=i
 lcm=int((num1*num2)/greatest)
 print(f"lcm of ({num1},{num2}) is {lcm}")
+
+
+
+# import math
+# print(math.gcd(54,24))
