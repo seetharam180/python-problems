@@ -22,3 +22,13 @@
 # print(arr)
 
 
+# Write a Python Program to Split the array and add the first part to the end?
+def split(arr,k):
+    if k<=0 and k>=len(arr):
+        return arr
+    else:
+        first=arr[:k]
+        end=arr[k:]
+        return end+first
+arr=[1,2,3,4,5]
+print(split(arr,2))
